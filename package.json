@@ -1,0 +1,22 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^2.1.0",
+    "@astrojs/vue": "^1.1.0",
+    "@trpc/client": "10.0.0-proxy-beta.10",
+    "@trpc/server": "10.0.0-proxy-beta.10",
+    "astro": "^1.4.2",
+    "vue": "^3.2.30",
+    "web-streams-polyfill": "^3.2.1"
+  }
+}
